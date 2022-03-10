@@ -9,7 +9,8 @@ Escribiendo !keko ejemplo1 ejemplo2
 
 Necesitas instalar python 3.7: <a href="https://www.python.org/downloads/release/python-370/">https://www.python.org/downloads/release/python-370/</a>
 
-Debes de instalar las siguiente librerias:
+Debes de instalar las siguiente librerias: Abre el Cmd desde inicio y escriben los siguiente comandos 
+<br>
 <br>
 pip install discord
 <br>
