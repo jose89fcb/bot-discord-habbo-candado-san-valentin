@@ -126,7 +126,7 @@ async def keko(ctx,  keko1, keko2):
         img1.save(image_binary, 'PNG')
         image_binary.seek(0)
 
-        await ctx.send(file=discord.File(fp=image_binary, filename='keko.png'))
+        await ctx.send(file=discord.File(fp=image_binary, filename=f'kekos-{keko1}{keko2}.png'))
          
         
         
