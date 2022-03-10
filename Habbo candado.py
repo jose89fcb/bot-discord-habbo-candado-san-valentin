@@ -65,7 +65,7 @@ async def keko(ctx,  keko1, keko2):
     
     
     
-    img1 = Image.open(r"candado.png").convert("RGBA") #Imagen del candado de amor sant valentin
+    img1 = Image.open(r"Candado San Valentin/Candado San Valentin.png").convert("RGBA") #Imagen del candado de amor sant valentin
     img1.paste(img2,(124,3), mask = img2) #Posicion del keko 1
     
     ###
@@ -75,7 +75,7 @@ async def keko(ctx,  keko1, keko2):
     
   
     draw = ImageDraw.Draw(img1)
-    font = ImageFont.truetype("UbuntuRegular-latin.246ea4b3.otf", 13) #Tamaño de la fuente (textos)
+    font = ImageFont.truetype("Fuente/UbuntuRegular-latin.246ea4b3.otf", 13) #Tamaño de la fuente (textos)
 
     draw.text((110, 120), f"Hasta que los pixels nos separen", font=font, fill=(101,36,97))  #Texto y color
     
